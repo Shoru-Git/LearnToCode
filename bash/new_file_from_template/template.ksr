@@ -1,0 +1,26 @@
+[Magic Cookie]
+RuleType=Syslog Server Rule
+[Description]
+Version=9.6.3
+Created=Thu, 12 Dec 2019 09:31:36 +0100
+User=shoru-git
+RuleCount=1
+[Rule1]
+Name=__NAME__
+FilterCount=1
+ActionCount=1
+Enabled=111
+F001-L001=030103000010001
+F001-L002=New Filter
+F001-L003=<QUOTE>__IP__<QUOTE>
+A001-L001=11021
+A001-L002=New Action
+A001-L003=C:\Logs\__DIR__\__NAME___%DateISO
+A001-L004=0
+A001-L005=1
+A001-L006=30
+A001-L007=100
+A001-L008=2
+A001-L009=1
+A001-L010=2
+A001-L011=1
